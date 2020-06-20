@@ -1,3 +1,10 @@
+/*
+Given an array containing n elements, in which, all the elements are present even number of times except for two elements 
+
+which occurs odd number of times. Find these two strange elements in ascending order in linear time with constant space complexity.
+
+*/
+
 #include <stdio.h>
 /* Include other headers as needed */
 int main()
