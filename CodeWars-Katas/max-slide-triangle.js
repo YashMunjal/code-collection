@@ -38,3 +38,12 @@ function longestSlideDown(pyramid) {
   }
   return pyramidSum[0][0];
 }
+
+
+// Clever Solution
+
+let fold = (a, b) =>
+  b.map((e, i) => Math.max(a[i-1]||0, a[i]||0) + e)
+
+let longestSlideDown = (pyramid) =>
+  Math.max(...pyramid.reduce(fold))
