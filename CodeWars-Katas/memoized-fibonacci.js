@@ -16,3 +16,10 @@ var fibonacci = (function () {
   }
   return f;
 })();
+
+// A solution i found very interestring
+
+var fibonacci = function (n) {
+  let goldenRatio = 1.6180339887498948482;
+  return Math.round(Math.pow(goldenRatio, n) / Math.sqrt(5));
+};
