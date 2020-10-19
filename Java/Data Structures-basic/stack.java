@@ -20,3 +20,18 @@ public static class Element<T> {
         this.next=next;
     }
 }
+// exceptions
+public static class StackOverflow extends exceptions{
+
+}
+public static class StackUnderflow extends exceptions{
+
+}
+//stack implementation
+
+public class Stack<T>{
+    private static int MAX_SIZE=40;
+    private Element<T> top;
+    private int size=0;
+    
+}
